@@ -89,3 +89,12 @@ C:\Users\Daniel\Downloads\ProyectoBingo-v2-3-20200423T181752Z-001\ProyectoBingo-
 C:\Users\Daniel\Downloads\ProyectoBingo-v2-3-20200423T181752Z-001\ProyectoBingo-v2-3\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form1.resources
 C:\Users\Daniel\Downloads\ProyectoBingo-v2-3-20200423T181752Z-001\ProyectoBingo-v2-3\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Properties.Resources.resources
 C:\Users\Daniel\Downloads\ProyectoBingo-v2-3-20200423T181752Z-001\ProyectoBingo-v2-3\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csproj.GenerateResource.Cache
+C:\Users\Daniel\UPC\SO\bingo\BingoGame\ClienteBingo-v3\ClienteBingo-v3\ProyectoBingo\obj\x86\Debug\ProyectoBingo.exe
+C:\Users\Daniel\UPC\SO\bingo\BingoGame\ClienteBingo-v3\ClienteBingo-v3\ProyectoBingo\obj\x86\Debug\ProyectoBingo.pdb
+C:\Users\Daniel\UPC\SO\bingo\BingoGame\ClienteBingo-v3\ClienteBingo-v3\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\UPC\SO\bingo\BingoGame\ClienteBingo-v3\ClienteBingo-v3\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form1.resources
+C:\Users\Daniel\UPC\SO\bingo\BingoGame\ClienteBingo-v3\ClienteBingo-v3\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Properties.Resources.resources
+C:\Users\Daniel\UPC\SO\bingo\BingoGame\ClienteBingo-v3\ClienteBingo-v3\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csproj.GenerateResource.Cache
+C:\Users\Daniel\UPC\SO\bingo\BingoGame\ClienteBingo-v3\ClienteBingo-v3\ProyectoBingo\bin\Debug\ProyectoBingo.exe
+C:\Users\Daniel\UPC\SO\bingo\BingoGame\ClienteBingo-v3\ClienteBingo-v3\ProyectoBingo\bin\Debug\ProyectoBingo.pdb
+C:\Users\Daniel\UPC\SO\bingo\BingoGame\ClienteBingo-v3\ClienteBingo-v3\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form2.resources

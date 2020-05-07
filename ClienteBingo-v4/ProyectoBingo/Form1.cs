@@ -17,8 +17,13 @@ namespace ConsoleApplication1
         Socket server;
         Thread atender;
         int i;
-        double timeLeft = 300.00;
-        int Sec = 60;
+
+        string conectado;  //nombre del usuario conectado en este cliente
+        string curItem;  //item seleccionado de la lista de conectados
+        int K = 0;
+
+        string servicio1;
+        string servicio2;
 
         public Form1()
         {
@@ -31,13 +36,21 @@ namespace ConsoleApplication1
             iniciarSesion.Enabled = false;
             registrar.Enabled = false;
             enviar.Enabled = false;
+            text.Enabled = false;
+            empezar.Enabled = false;
+            AddPlayer.Enabled = false;
+            TextMessage.Enabled = false;
+
+            //Mensaje bienvenida
+            //string estadistica = "Histórico de usuario\n\n" + "Partidas jugadas: " + "5\n" + "Bingo: " + "0\n" + "Linea: " + "4\n" + "Mayor bote ganado: " + "20\n\n" + "Global\n\n" + "Bote más alto ganado: " + "500";
+            //MessageBox.Show(estadistica,"Estadisticas" ,MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void Conexion()
         {
             //Creamos un IPEndPoint con el ip del servidor y puerto del servidor 
             //al que deseamos conectarnos
-            IPAddress direc = IPAddress.Parse("147.83.117.22");
+            IPAddress direc = IPAddress.Parse("192.168.1.134");  //147.83.117.22
             IPEndPoint ipep = new IPEndPoint(direc, 50060);
 
 
@@ -71,7 +84,6 @@ namespace ConsoleApplication1
             Conexion();
         }
 
-        int K = 0;
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             if (K % 2 == 0)  //Nos conectamos
@@ -81,7 +93,7 @@ namespace ConsoleApplication1
                 iniciarSesion.Enabled = true;
                 registrar.Enabled = true;
                 enviar.Enabled = true;
-                estadistica();
+                //estadistica();
                 K++;
             }
             else  //Nos desconectamos
@@ -157,32 +169,30 @@ namespace ConsoleApplication1
             }
         }
 
-        private void estadistica()
+        private void enviar_Click(object sender, EventArgs e)
         {
-            string mensaje_1 = "3/";
+
+            string mensaje_1 = "3/";  //Mas partidas ganadas
             // Enviamos al servidor el nombre tecleado
             byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje_1);
             server.Send(msg);
 
-            string mensaje_2 = "4/";
+            string mensaje_2 = "4/";  //Mas puntos
             // Enviamos al servidor el nombre tecleado
             byte[] msg3 = System.Text.Encoding.ASCII.GetBytes(mensaje_2);
             server.Send(msg3);
-        }
 
-        private void enviar_Click(object sender, EventArgs e)
-        {
+            MessageBox.Show("El usuario que ha ganado más partidas es: " + servicio1 + "\nEl usuario que ha ganado más puntos es: " + servicio2, "Estadisticas",MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                // Quiere saber 
-                string mensaje = "5/" + textBox1.Text;
-                // Enviamos al servidor el nombre tecleado
-                byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
-                server.Send(msg);
+            /* // Quiere saber 
+            string mensaje = "5/" + textBox1.Text;
+            // Enviamos al servidor el nombre tecleado
+            byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
+            server.Send(msg);*/
 
         }
 
-
-        private void nueva_Click(object sender, EventArgs e)
+         private void empezar_Click(object sender, EventArgs e)
         {
             Random rdn = new Random();
             int a = rdn.Next(0, 90);
@@ -217,38 +227,18 @@ namespace ConsoleApplication1
             l14.Text = n.ToString();
             l15.Text = o.ToString();
         }
+       
 
-        private void start_Click(object sender, EventArgs e)
+        private void EnableLogIn()  //Habilita botones cuando usuario inicia sesion
         {
-            timer1.Start();
-        }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-                if (timeLeft > 0)
-                {
-                    // Display the new time left
-                    // by updating the Time Left label.
-                    timeLeft = timeLeft - 1;
-                    double timeMin;                   
-                    timeMin = timeLeft / 60;
-                    timeMin = Math.Truncate(timeMin);
-                    if (Sec > 0)
-                        Sec = Sec - 1;
-                    else
-                        Sec = 60;
-
-                    label14.Text = "0" + timeMin + ":";
-                    label15.Text = Sec + "";
-                }
-                else
-                {
-                    // If the user ran out of time, stop the timer, show
-                    // a MessageBox, and fill in the answers.
-                    timer1.Stop();
-                    label14.Text = "Time's up!";
-                    MessageBox.Show("You didn't finish in time.", "Sorry!");
-                }
+            text.Enabled = true;
+            empezar.Enabled = true;
+            AddPlayer.Enabled = true;
+            TextMessage.Enabled = true;
+            label6.Text = "Has iniciado sesión como: " + conectado;
+            mensajes.Items.Add("Has iniciado sesión como : " + conectado);
+            nombre.Clear();
+            pass.Clear();
         }
 
          private void atender_mensaje_servidor()
@@ -281,9 +271,9 @@ namespace ConsoleApplication1
 
                          if (trozos[1].TrimEnd('\0') == "SI")
                          {
-                             MessageBox.Show("Acceso Permitido.");
-                             //string nombre = words[2];
-
+                             conectado = trozos[2].TrimEnd('\0');
+                             EnableLogIn();
+                             //MessageBox.Show("Has iniciado sesión como " + conectado);          
                          }
                          else
                          {
@@ -292,34 +282,32 @@ namespace ConsoleApplication1
 
                          break;
 
-                     case 3:  //servicio1
+                     case 3:  //Mas partidas ganadas
 
                          if (trozos[1].TrimEnd('\0') == "SI")
                          {
-
-                             label17.Text = trozos[2];
-                            //MessageBox.Show("El jugador que ha ganado más partidas es: " + words[2]);
-
+                             servicio1 = trozos[2];
+                             //MessageBox.Show("El jugador que ha ganado más partidas es: " + words[2]);
                          }
                          else
                          {
-                             MessageBox.Show("No hay resultado.\nInténtelo más tarde.");
+                             servicio1 = "Algo ha ido mal.";
+                             //MessageBox.Show("No hay resultado.\nInténtelo más tarde.");
                          }
 
                          break;
 
-                     case 4:  //servicio1
+                     case 4:  //Mas puntos
 
                          if (trozos[1].TrimEnd('\0') == "SI")
                          {
-
-                             label18.Text = trozos[2];
-                            //MessageBox.Show("El jugador que tiene más puntuación es: " + words_2[2]);
-
+                             servicio2 = trozos[2];
+                             //MessageBox.Show("El jugador que tiene más puntuación es: " + words_2[2]);
                          }
                          else
                          {
-                             MessageBox.Show("No hay resultado.\nInténtelo más tarde.");
+                             servicio2 = "Algo ha ido mal.";
+                             //MessageBox.Show("No hay resultado.\nInténtelo más tarde.");
                          }
 
                          break;
@@ -345,10 +333,100 @@ namespace ConsoleApplication1
 
                         break;
 
+                    case 7:
+
+                        if (trozos[1].TrimEnd('\0') == "SI")
+                        {                           
+                            string anfitrion = trozos[3].TrimEnd('\0');
+                            DialogResult resp = MessageBox.Show("¿Aceptas jugar?", anfitrion + " te esta invitando a jugar", MessageBoxButtons.OKCancel);
+                            if (resp == DialogResult.OK)
+                            {
+                                //Acepta
+                                ListaInvitar.Items.Add(trozos[2]);
+                                string acepta = "7/SI/" + trozos[2] + "/" + trozos[3];
+                                byte[] msg = System.Text.Encoding.ASCII.GetBytes(acepta);
+                                server.Send(msg);
+                            }
+                            else
+                            {
+                                //No acepta
+                                string acepta = "7/NO" + trozos[2] + "/" + trozos[3];
+                                byte[] msg = System.Text.Encoding.ASCII.GetBytes(acepta);
+                                server.Send(msg);
+                            }
+                        }
+
+                        break;
+
+                    case 8:
+
+                        string invitado = trozos[2].TrimEnd('\0');
+                        if (trozos[1].TrimEnd('\0') == "SI")
+                        {
+                            mensajes.Items.Add(invitado + " ha aceptado jugar.");
+                            //MessageBox.Show(invitado + " ha aceptado jugar.");
+                        }
+                        else
+                        {
+                            mensajes.Items.Add(invitado + " no ha aceptado jugar.");
+                            //MessageBox.Show(invitado + " no ha aceptado jugar.");
+                        }
+
+                        break;
+
+                    case 9:
+
+                        string usuario = trozos[1].TrimEnd('\0');
+                        mensaje = trozos[2].TrimEnd('\0');
+                        string text = usuario + ": " + mensaje;
+                        ListText.Items.Add(text);
+
+                        break;
+
                  }
              }
 
          }
 
+         private void PlayerList_SelectedIndexChanged(object sender, EventArgs e)
+         {
+              curItem = PlayerList.SelectedItem.ToString(); 
+         }
+
+         private void AddPlayer_Click(object sender, EventArgs e)
+         {        
+             //MessageBox.Show("current: " + curItem + "\nconectado:" + conectado);
+
+           if (curItem == null)
+           {
+               MessageBox.Show("No has seleccionado a nadie.");
+           }
+
+           else if (curItem == conectado)
+           {
+               MessageBox.Show("No puedes invitarte a ti mismo.");
+           }
+
+           else
+           {
+               string mensaje = "6/" + curItem + "/" + conectado;
+               byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
+               server.Send(msg);
+           }
+         }
+
+         private void text_Click(object sender, EventArgs e)
+         {
+             if (TextMessage.Text == "")
+             {
+                 MessageBox.Show("Escribe algo en el cuadro de texto.");
+             }
+             else
+             {
+                 string mensaje = "8/" + conectado + "/" + TextMessage.Text;
+                 byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
+                 server.Send(msg);
+             }
+         }
     }
 }
