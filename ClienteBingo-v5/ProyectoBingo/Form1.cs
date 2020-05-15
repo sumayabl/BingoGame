@@ -25,12 +25,22 @@ namespace ConsoleApplication1
         string servicio1;
         string servicio2;
 
+        //Declaro una clase delegada
+        delegate void DelegadoParaEscribir(string nombre);
+        delegate void DelegadoParaMensajes(string conectado);
+        delegate void DelegadoParaMensajesInvitados(string invitado, string texto);
+        delegate void DelegadoListaInvitados(string invitado);
+        delegate void DelegadoListaConectados(string conectado);
+        delegate void DelegadoChat(string text);
+        delegate void DelegadoLimpiarLista();
+        delegate void DelegadoParaLogIn();
+
         public Form1()
         {
             InitializeComponent();
 
             //Necesario para que los elementos de los formularios puedan ser accedidos desde threads diferentes a los que los crearon
-            CheckForIllegalCrossThreadCalls = false;
+            //CheckForIllegalCrossThreadCalls = false;
 
             //Deshabilitar botones al abrir formulario
             iniciarSesion.Enabled = false;
@@ -41,9 +51,53 @@ namespace ConsoleApplication1
             AddPlayer.Enabled = false;
             TextMessage.Enabled = false;
 
-            //Mensaje bienvenida
             //string estadistica = "Histórico de usuario\n\n" + "Partidas jugadas: " + "5\n" + "Bingo: " + "0\n" + "Linea: " + "4\n" + "Mayor bote ganado: " + "20\n\n" + "Global\n\n" + "Bote más alto ganado: " + "500";
             //MessageBox.Show(estadistica,"Estadisticas" ,MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        public void PonNombre(string conectado)  //Funcion nueva que creo por el tema del excepcion cross thread
+        {
+            label6.Text = "Has iniciado sesión como: " + conectado;
+        }
+
+        public void PonMensaje(string conectado)
+        {
+            mensajes.Items.Add("Has iniciado sesión como : " + conectado);
+        }
+
+        public void PonMensajeInvitado(string invitado, string texto)
+        {
+            mensajes.Items.Add(invitado + "" + texto);
+        }
+
+        public void PonListaInvitados(string invitado)
+        {
+            ListaInvitar.Items.Add(invitado);
+        }
+
+        public void LimpiarLista()
+        {
+            PlayerList.Items.Clear();
+        }
+
+        public void PonListaConectados(string conectado)
+        {
+            PlayerList.Items.Add(conectado);
+        }
+
+        public void PonerText(string text)
+        {
+            ListText.Items.Add(text);
+        }
+
+        public void LogIn()
+        {
+            text.Enabled = true;
+            empezar.Enabled = true;
+            AddPlayer.Enabled = true;
+            TextMessage.Enabled = true;
+            nombre.Clear();
+            pass.Clear();
         }
 
         private void Conexion()
@@ -228,17 +282,23 @@ namespace ConsoleApplication1
             l15.Text = o.ToString();
         }
        
-
         private void EnableLogIn()  //Habilita botones cuando usuario inicia sesion
         {
-            text.Enabled = true;
-            empezar.Enabled = true;
-            AddPlayer.Enabled = true;
-            TextMessage.Enabled = true;
-            label6.Text = "Has iniciado sesión como: " + conectado;
-            mensajes.Items.Add("Has iniciado sesión como : " + conectado);
-            nombre.Clear();
-            pass.Clear();
+            DelegadoParaLogIn delegadoLogIn = new DelegadoParaLogIn(LogIn);
+            text.Invoke(delegadoLogIn);
+            empezar.Invoke(delegadoLogIn);
+            AddPlayer.Invoke(delegadoLogIn);
+            TextMessage.Invoke(delegadoLogIn);
+            nombre.Invoke(delegadoLogIn);
+            pass.Invoke(delegadoLogIn);
+
+            //label6.Text = "Has iniciado sesión como: " + conectado;  //Lo quito de aqui por el tema del excepcion cross thread
+            DelegadoParaEscribir delegado = new DelegadoParaEscribir(PonNombre);
+            label6.Invoke(delegado, new object[] {conectado});
+
+            //mensajes.Items.Add("Has iniciado sesión como : " + conectado);
+            DelegadoParaMensajes delegadoMensajes = new DelegadoParaMensajes(PonMensaje);
+            mensajes.Invoke(delegadoMensajes, new object[] {conectado});
         }
 
          private void atender_mensaje_servidor()
@@ -272,8 +332,7 @@ namespace ConsoleApplication1
                          if (trozos[1].TrimEnd('\0') == "SI")
                          {
                              conectado = trozos[2].TrimEnd('\0');
-                             EnableLogIn();
-                             //MessageBox.Show("Has iniciado sesión como " + conectado);          
+                             EnableLogIn();         
                          }
                          else
                          {
@@ -320,20 +379,25 @@ namespace ConsoleApplication1
 
                     case 6:
                         //Lista de conectados 
-                        PlayerList.Items.Clear();
+
+                        DelegadoLimpiarLista delegadoLimpiarLista = new DelegadoLimpiarLista(LimpiarLista);
+                        PlayerList.Invoke(delegadoLimpiarLista);
 
                         int i = 0;
                         int result = Int32.Parse(trozos[1]);
 
                         while (i < result)
                         {
-                            PlayerList.Items.Add(trozos[i + 2]);
+                            DelegadoListaConectados delegadoListaConectados = new DelegadoListaConectados(PonListaConectados);
+                            PlayerList.Invoke(delegadoListaConectados, new object[] {trozos[i + 2]});
+
+                            //PlayerList.Items.Add(trozos[i + 2]);
                             i++;
                         }
 
                         break;
 
-                    case 7:
+                    case 7:  //Peticion invitacion
 
                         if (trozos[1].TrimEnd('\0') == "SI")
                         {                           
@@ -341,8 +405,10 @@ namespace ConsoleApplication1
                             DialogResult resp = MessageBox.Show("¿Aceptas jugar?", anfitrion + " te esta invitando a jugar", MessageBoxButtons.OKCancel);
                             if (resp == DialogResult.OK)
                             {
-                                //Acepta
-                                ListaInvitar.Items.Add(trozos[2]);
+                                //Acepta                            
+                                DelegadoListaInvitados delegadoListaInvitados = new DelegadoListaInvitados(PonListaInvitados);
+                                ListaInvitar.Invoke(delegadoListaInvitados, new object[] {trozos[2]});
+
                                 string acepta = "7/SI/" + trozos[2] + "/" + trozos[3];
                                 byte[] msg = System.Text.Encoding.ASCII.GetBytes(acepta);
                                 server.Send(msg);
@@ -358,28 +424,32 @@ namespace ConsoleApplication1
 
                         break;
 
-                    case 8:
+                    case 8:  //Respuesta invitacion
 
                         string invitado = trozos[2].TrimEnd('\0');
                         if (trozos[1].TrimEnd('\0') == "SI")
                         {
-                            mensajes.Items.Add(invitado + " ha aceptado jugar.");
-                            //MessageBox.Show(invitado + " ha aceptado jugar.");
+                            string texto = " ha aceptado jugar.";
+                            DelegadoParaMensajesInvitados delegadoMensajesInvitados = new DelegadoParaMensajesInvitados(PonMensajeInvitado);
+                            mensajes.Invoke(delegadoMensajesInvitados, new object[] {invitado, texto});
                         }
                         else
                         {
-                            mensajes.Items.Add(invitado + " no ha aceptado jugar.");
-                            //MessageBox.Show(invitado + " no ha aceptado jugar.");
+                            string texto = " no ha aceptado jugar.";
+                            DelegadoParaMensajesInvitados delegadoMensajesInvitados = new DelegadoParaMensajesInvitados(PonMensajeInvitado);
+                            mensajes.Invoke(delegadoMensajesInvitados, new object[] { invitado, texto });
                         }
 
                         break;
 
-                    case 9:
+                    case 9:  //Insertar mensaje en chat
 
                         string usuario = trozos[1].TrimEnd('\0');
                         mensaje = trozos[2].TrimEnd('\0');
                         string text = usuario + ": " + mensaje;
-                        ListText.Items.Add(text);
+
+                        DelegadoChat delegadoChat = new DelegadoChat(PonerText);
+                        mensajes.Invoke(delegadoChat, new object[] {text});
 
                         break;
 
@@ -393,10 +463,8 @@ namespace ConsoleApplication1
               curItem = PlayerList.SelectedItem.ToString(); 
          }
 
-         private void AddPlayer_Click(object sender, EventArgs e)
+         private void AddPlayer_Click(object sender, EventArgs e)  //Invitar jugador
          {        
-             //MessageBox.Show("current: " + curItem + "\nconectado:" + conectado);
-
            if (curItem == null)
            {
                MessageBox.Show("No has seleccionado a nadie.");
@@ -415,7 +483,7 @@ namespace ConsoleApplication1
            }
          }
 
-         private void text_Click(object sender, EventArgs e)
+         private void text_Click(object sender, EventArgs e)  //Chat
          {
              if (TextMessage.Text == "")
              {
