@@ -1,0 +1,172 @@
+C:\Users\34631\Desktop\ProyectoBingo\ProyectoBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form1.resources
+C:\Users\34631\Desktop\ProyectoBingo\ProyectoBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Properties.Resources.resources
+C:\Users\34631\Desktop\ProyectoBingo\ProyectoBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csproj.GenerateResource.Cache
+C:\Users\34631\Desktop\ProyectoBingo\ProyectoBingo\ProyectoBingo\bin\Debug\ProyectoBingo.exe
+C:\Users\34631\Desktop\ProyectoBingo\ProyectoBingo\ProyectoBingo\bin\Debug\ProyectoBingo.pdb
+C:\Users\34631\Desktop\ProyectoBingo\ProyectoBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.exe
+C:\Users\34631\Desktop\ProyectoBingo\ProyectoBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.pdb
+C:\Users\Daniel\Downloads\ProyectoBingo\ProyectoBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.exe
+C:\Users\Daniel\Downloads\ProyectoBingo\ProyectoBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.pdb
+C:\Users\Daniel\Downloads\ProyectoBingo\ProyectoBingo\ProyectoBingo\bin\Debug\ProyectoBingo.exe
+C:\Users\Daniel\Downloads\ProyectoBingo\ProyectoBingo\ProyectoBingo\bin\Debug\ProyectoBingo.pdb
+C:\Users\Daniel\Downloads\ProyectoBingo\ProyectoBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form1.resources
+C:\Users\Daniel\Downloads\ProyectoBingo\ProyectoBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Properties.Resources.resources
+C:\Users\Daniel\Downloads\ProyectoBingo\ProyectoBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csproj.GenerateResource.Cache
+C:\Users\Daniel\Downloads\ProyectoBingo\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.exe
+C:\Users\Daniel\Downloads\ProyectoBingo\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.pdb
+C:\Users\Daniel\Downloads\ProyectoBingo\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.exe
+C:\Users\Daniel\Downloads\ProyectoBingo\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.pdb
+C:\Users\Daniel\Downloads\ProyectoBingo\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form1.resources
+C:\Users\Daniel\Downloads\ProyectoBingo\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Properties.Resources.resources
+C:\Users\Daniel\Downloads\ProyectoBingo\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csproj.GenerateResource.Cache
+C:\Users\Daniel\UPC\SO\ProyectoBingo\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.exe
+C:\Users\Daniel\UPC\SO\ProyectoBingo\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.pdb
+C:\Users\Daniel\UPC\SO\ProyectoBingo\Bingo\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.exe
+C:\Users\Daniel\UPC\SO\ProyectoBingo\Bingo\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.pdb
+C:\Users\Daniel\UPC\SO\ProyectoBingo\Bingo\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.exe
+C:\Users\Daniel\UPC\SO\ProyectoBingo\Bingo\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.pdb
+C:\Users\Daniel\UPC\SO\ProyectoBingo\Bingo\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\UPC\SO\ProyectoBingo\Bingo\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form1.resources
+C:\Users\Daniel\UPC\SO\ProyectoBingo\Bingo\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Properties.Resources.resources
+C:\Users\Daniel\UPC\SO\ProyectoBingo\Bingo\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csproj.GenerateResource.Cache
+C:\Users\Sumaya\Documents\SO\ProyectoBingo-master\ProyectoBingo-master\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.exe
+C:\Users\Sumaya\Documents\SO\ProyectoBingo-master\ProyectoBingo-master\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.pdb
+C:\Users\Sumaya\Documents\SO\ProyectoBingo-master\ProyectoBingo-master\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.exe
+C:\Users\Sumaya\Documents\SO\ProyectoBingo-master\ProyectoBingo-master\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.pdb
+C:\Users\Sumaya\Documents\SO\ProyectoBingo-master\ProyectoBingo-master\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csprojResolveAssemblyReference.cache
+C:\Users\Sumaya\Documents\SO\ProyectoBingo-master\ProyectoBingo-master\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form1.resources
+C:\Users\Sumaya\Documents\SO\ProyectoBingo-master\ProyectoBingo-master\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Properties.Resources.resources
+C:\Users\Sumaya\Documents\SO\ProyectoBingo-master\ProyectoBingo-master\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csproj.GenerateResource.Cache
+C:\Users\Sumaya\Documents\SO\SO 2020\ProyectoBingo-master-original\ProyectoBingo-master\ProyectoBingo-master\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.exe
+C:\Users\Sumaya\Documents\SO\SO 2020\ProyectoBingo-master-original\ProyectoBingo-master\ProyectoBingo-master\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.pdb
+C:\Users\Sumaya\Documents\SO\SO 2020\ProyectoBingo-master-original\ProyectoBingo-master\ProyectoBingo-master\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.exe
+C:\Users\Sumaya\Documents\SO\SO 2020\ProyectoBingo-master-original\ProyectoBingo-master\ProyectoBingo-master\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.pdb
+C:\Users\Sumaya\Documents\SO\SO 2020\ProyectoBingo-master-original\ProyectoBingo-master\ProyectoBingo-master\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csprojResolveAssemblyReference.cache
+C:\Users\Sumaya\Documents\SO\SO 2020\ProyectoBingo-master-original\ProyectoBingo-master\ProyectoBingo-master\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form1.resources
+C:\Users\Sumaya\Documents\SO\SO 2020\ProyectoBingo-master-original\ProyectoBingo-master\ProyectoBingo-master\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Properties.Resources.resources
+C:\Users\Sumaya\Documents\SO\SO 2020\ProyectoBingo-master-original\ProyectoBingo-master\ProyectoBingo-master\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csproj.GenerateResource.Cache
+C:\Users\Sumaya\Desktop\ProyectoBingo-master\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.exe
+C:\Users\Sumaya\Desktop\ProyectoBingo-master\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.pdb
+C:\Users\Sumaya\Documents\SO\SO 2020\ProyectoBingo-v2-1\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.exe
+C:\Users\Sumaya\Documents\SO\SO 2020\ProyectoBingo-v2-1\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.pdb
+C:\Users\Sumaya\Documents\SO\SO 2020\ProyectoBingo-v2-1\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.exe
+C:\Users\Sumaya\Documents\SO\SO 2020\ProyectoBingo-v2-1\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.pdb
+C:\Users\Sumaya\Documents\SO\SO 2020\ProyectoBingo-v2-1\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csprojResolveAssemblyReference.cache
+C:\Users\Sumaya\Documents\SO\SO 2020\ProyectoBingo-v2-1\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form1.resources
+C:\Users\Sumaya\Documents\SO\SO 2020\ProyectoBingo-v2-1\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Properties.Resources.resources
+C:\Users\Sumaya\Documents\SO\SO 2020\ProyectoBingo-v2-1\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csproj.GenerateResource.Cache
+C:\Users\Daniel\UPC\SO\ProyectoBingo-v2\ProyectoBingo-v2-1\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.exe
+C:\Users\Daniel\UPC\SO\ProyectoBingo-v2\ProyectoBingo-v2-1\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.pdb
+C:\Users\Daniel\UPC\SO\ProyectoBingo-v2\ProyectoBingo-v2-1\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.exe
+C:\Users\Daniel\UPC\SO\ProyectoBingo-v2\ProyectoBingo-v2-1\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.pdb
+C:\Users\Daniel\UPC\SO\ProyectoBingo-v2\ProyectoBingo-v2-1\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\UPC\SO\ProyectoBingo-v2\ProyectoBingo-v2-1\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form1.resources
+C:\Users\Daniel\UPC\SO\ProyectoBingo-v2\ProyectoBingo-v2-1\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Properties.Resources.resources
+C:\Users\Daniel\UPC\SO\ProyectoBingo-v2\ProyectoBingo-v2-1\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csproj.GenerateResource.Cache
+C:\Users\Daniel\UPC\SO\ProyectoBingo-v2\ProyectoBingo-v2-3\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.exe
+C:\Users\Daniel\UPC\SO\ProyectoBingo-v2\ProyectoBingo-v2-3\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.pdb
+C:\Users\Daniel\UPC\SO\ProyectoBingo-v2\ProyectoBingo-v2-3\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.exe
+C:\Users\Daniel\UPC\SO\ProyectoBingo-v2\ProyectoBingo-v2-3\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.pdb
+C:\Users\Daniel\UPC\SO\ProyectoBingo-v2\ProyectoBingo-v2-3\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\UPC\SO\ProyectoBingo-v2\ProyectoBingo-v2-3\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form1.resources
+C:\Users\Daniel\UPC\SO\ProyectoBingo-v2\ProyectoBingo-v2-3\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Properties.Resources.resources
+C:\Users\Daniel\UPC\SO\ProyectoBingo-v2\ProyectoBingo-v2-3\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csproj.GenerateResource.Cache
+C:\Users\Sumaya\Documents\SO\SO 2020\ProyectoBingo-v2-3(real)\ProyectoBingo-v2-3\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.exe
+C:\Users\Sumaya\Documents\SO\SO 2020\ProyectoBingo-v2-3(real)\ProyectoBingo-v2-3\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.pdb
+C:\Users\Sumaya\Documents\SO\SO 2020\ProyectoBingo-v2-3(real)\ProyectoBingo-v2-3\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.exe
+C:\Users\Sumaya\Documents\SO\SO 2020\ProyectoBingo-v2-3(real)\ProyectoBingo-v2-3\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.pdb
+C:\Users\Sumaya\Documents\SO\SO 2020\ProyectoBingo-v2-3(real)\ProyectoBingo-v2-3\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csprojResolveAssemblyReference.cache
+C:\Users\Sumaya\Documents\SO\SO 2020\ProyectoBingo-v2-3(real)\ProyectoBingo-v2-3\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form1.resources
+C:\Users\Sumaya\Documents\SO\SO 2020\ProyectoBingo-v2-3(real)\ProyectoBingo-v2-3\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Properties.Resources.resources
+C:\Users\Sumaya\Documents\SO\SO 2020\ProyectoBingo-v2-3(real)\ProyectoBingo-v2-3\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csproj.GenerateResource.Cache
+C:\Users\Sumaya\Documents\SO\SO 2020\Proyecto\ProyectoBingo-v3\ProyectoBingo-v2-3\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.exe
+C:\Users\Sumaya\Documents\SO\SO 2020\Proyecto\ProyectoBingo-v3\ProyectoBingo-v2-3\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.pdb
+C:\Users\Daniel\Downloads\ProyectoBingo-v2-3-20200423T181752Z-001\ProyectoBingo-v2-3\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.exe
+C:\Users\Daniel\Downloads\ProyectoBingo-v2-3-20200423T181752Z-001\ProyectoBingo-v2-3\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.pdb
+C:\Users\Daniel\Downloads\ProyectoBingo-v2-3-20200423T181752Z-001\ProyectoBingo-v2-3\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.exe
+C:\Users\Daniel\Downloads\ProyectoBingo-v2-3-20200423T181752Z-001\ProyectoBingo-v2-3\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.pdb
+C:\Users\Daniel\Downloads\ProyectoBingo-v2-3-20200423T181752Z-001\ProyectoBingo-v2-3\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Downloads\ProyectoBingo-v2-3-20200423T181752Z-001\ProyectoBingo-v2-3\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form1.resources
+C:\Users\Daniel\Downloads\ProyectoBingo-v2-3-20200423T181752Z-001\ProyectoBingo-v2-3\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Properties.Resources.resources
+C:\Users\Daniel\Downloads\ProyectoBingo-v2-3-20200423T181752Z-001\ProyectoBingo-v2-3\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csproj.GenerateResource.Cache
+C:\Users\Daniel\UPC\SO\bingo\BingoGame\ClienteBingo-v3\ClienteBingo-v3\ProyectoBingo\obj\x86\Debug\ProyectoBingo.exe
+C:\Users\Daniel\UPC\SO\bingo\BingoGame\ClienteBingo-v3\ClienteBingo-v3\ProyectoBingo\obj\x86\Debug\ProyectoBingo.pdb
+C:\Users\Daniel\UPC\SO\bingo\BingoGame\ClienteBingo-v3\ClienteBingo-v3\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\UPC\SO\bingo\BingoGame\ClienteBingo-v3\ClienteBingo-v3\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form1.resources
+C:\Users\Daniel\UPC\SO\bingo\BingoGame\ClienteBingo-v3\ClienteBingo-v3\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Properties.Resources.resources
+C:\Users\Daniel\UPC\SO\bingo\BingoGame\ClienteBingo-v3\ClienteBingo-v3\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csproj.GenerateResource.Cache
+C:\Users\Daniel\UPC\SO\bingo\BingoGame\ClienteBingo-v3\ClienteBingo-v3\ProyectoBingo\bin\Debug\ProyectoBingo.exe
+C:\Users\Daniel\UPC\SO\bingo\BingoGame\ClienteBingo-v3\ClienteBingo-v3\ProyectoBingo\bin\Debug\ProyectoBingo.pdb
+C:\Users\Daniel\UPC\SO\bingo\BingoGame\ClienteBingo-v3\ClienteBingo-v3\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form2.resources
+C:\Users\Daniel\UPC\SO\bingo\BingoGame\BingoGame\ClienteBingo-v4\ProyectoBingo\obj\x86\Debug\ProyectoBingo.exe
+C:\Users\Daniel\UPC\SO\bingo\BingoGame\BingoGame\ClienteBingo-v4\ProyectoBingo\obj\x86\Debug\ProyectoBingo.pdb
+C:\Users\Daniel\UPC\SO\bingo\BingoGame\BingoGame\ClienteBingo-v4\ProyectoBingo\bin\Debug\ProyectoBingo.exe
+C:\Users\Daniel\UPC\SO\bingo\BingoGame\BingoGame\ClienteBingo-v4\ProyectoBingo\bin\Debug\ProyectoBingo.pdb
+C:\Users\Daniel\UPC\SO\bingo\BingoGame\BingoGame\ClienteBingo-v4\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\UPC\SO\bingo\BingoGame\BingoGame\ClienteBingo-v4\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form1.resources
+C:\Users\Daniel\UPC\SO\bingo\BingoGame\BingoGame\ClienteBingo-v4\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form2.resources
+C:\Users\Daniel\UPC\SO\bingo\BingoGame\BingoGame\ClienteBingo-v4\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Properties.Resources.resources
+C:\Users\Daniel\UPC\SO\bingo\BingoGame\BingoGame\ClienteBingo-v4\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csproj.GenerateResource.Cache
+C:\Users\Daniel\UPC\Proyecto-SO\BingoGame\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.exe
+C:\Users\Daniel\UPC\Proyecto-SO\BingoGame\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.pdb
+C:\Users\Daniel\UPC\Proyecto-SO\BingoGame\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\UPC\Proyecto-SO\BingoGame\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form1.resources
+C:\Users\Daniel\UPC\Proyecto-SO\BingoGame\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form2.resources
+C:\Users\Daniel\UPC\Proyecto-SO\BingoGame\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Properties.Resources.resources
+C:\Users\Daniel\UPC\Proyecto-SO\BingoGame\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csproj.GenerateResource.Cache
+C:\Users\Daniel\UPC\Proyecto-SO\BingoGame\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.exe
+C:\Users\Daniel\UPC\Proyecto-SO\BingoGame\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.pdb
+C:\Users\Sumaya\Documents\SO\SO 2020\BingoGame\BingoGame\ClienteBingo\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.exe
+C:\Users\Sumaya\Documents\SO\SO 2020\BingoGame\BingoGame\ClienteBingo\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.pdb
+C:\Users\Sumaya\Documents\SO\SO 2020\BingoGame\BingoGame\ClienteBingo\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.exe
+C:\Users\Sumaya\Documents\SO\SO 2020\BingoGame\BingoGame\ClienteBingo\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.pdb
+C:\Users\Sumaya\Documents\SO\SO 2020\BingoGame\BingoGame\ClienteBingo\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csprojResolveAssemblyReference.cache
+C:\Users\Sumaya\Documents\SO\SO 2020\BingoGame\BingoGame\ClienteBingo\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form1.resources
+C:\Users\Sumaya\Documents\SO\SO 2020\BingoGame\BingoGame\ClienteBingo\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form2.resources
+C:\Users\Sumaya\Documents\SO\SO 2020\BingoGame\BingoGame\ClienteBingo\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Properties.Resources.resources
+C:\Users\Sumaya\Documents\SO\SO 2020\BingoGame\BingoGame\ClienteBingo\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csproj.GenerateResource.Cache
+C:\Users\Sumaya\Desktop\ClienteBingo(copia)\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.exe
+C:\Users\Sumaya\Desktop\ClienteBingo(copia)\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.pdb
+C:\Users\Sumaya\Desktop\ClienteBingo(copia)\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csprojResolveAssemblyReference.cache
+C:\Users\Sumaya\Desktop\ClienteBingo(copia)\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form1.resources
+C:\Users\Sumaya\Desktop\ClienteBingo(copia)\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form2.resources
+C:\Users\Sumaya\Desktop\ClienteBingo(copia)\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Properties.Resources.resources
+C:\Users\Sumaya\Desktop\ClienteBingo(copia)\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csproj.GenerateResource.Cache
+C:\Users\Sumaya\Desktop\ClienteBingo(copia)\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.exe
+C:\Users\Sumaya\Desktop\ClienteBingo(copia)\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.pdb
+C:\Users\Sumaya\Documents\SO\ClienteBingo(copia)\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.exe
+C:\Users\Sumaya\Documents\SO\ClienteBingo(copia)\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.pdb
+C:\Users\Sumaya\Documents\SO\ClienteBingo(copia)\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.exe
+C:\Users\Sumaya\Documents\SO\ClienteBingo(copia)\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.pdb
+C:\Users\Sumaya\Documents\SO\ClienteBingo(copia)\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csprojResolveAssemblyReference.cache
+C:\Users\Sumaya\Documents\SO\ClienteBingo(copia)\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form1.resources
+C:\Users\Sumaya\Documents\SO\ClienteBingo(copia)\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form2.resources
+C:\Users\Sumaya\Documents\SO\ClienteBingo(copia)\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Properties.Resources.resources
+C:\Users\Sumaya\Documents\SO\ClienteBingo(copia)\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csproj.GenerateResource.Cache
+C:\Users\Daniel\Downloads\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.exe
+C:\Users\Daniel\Downloads\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.pdb
+C:\Users\Daniel\Downloads\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.exe
+C:\Users\Daniel\Downloads\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.pdb
+C:\Users\Daniel\Downloads\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Downloads\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form1.resources
+C:\Users\Daniel\Downloads\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form2.resources
+C:\Users\Daniel\Downloads\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Properties.Resources.resources
+C:\Users\Daniel\Downloads\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csproj.GenerateResource.Cache
+C:\Users\Daniel\Downloads\ClienteBingo(1)\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.exe
+C:\Users\Daniel\Downloads\ClienteBingo(1)\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.pdb
+C:\Users\Daniel\Downloads\ClienteBingo(1)\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.exe
+C:\Users\Daniel\Downloads\ClienteBingo(1)\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.pdb
+C:\Users\Daniel\Downloads\ClienteBingo(1)\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Downloads\ClienteBingo(1)\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form1.resources
+C:\Users\Daniel\Downloads\ClienteBingo(1)\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form2.resources
+C:\Users\Daniel\Downloads\ClienteBingo(1)\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Properties.Resources.resources
+C:\Users\Daniel\Downloads\ClienteBingo(1)\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csproj.GenerateResource.Cache
+C:\Users\Sumaya\Documents\SO\ClienteBingo\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.exe
+C:\Users\Sumaya\Documents\SO\ClienteBingo\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.pdb
+C:\Users\Sumaya\Documents\SO\ClienteBingo\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.exe
+C:\Users\Sumaya\Documents\SO\ClienteBingo\ClienteBingo\ProyectoBingo\bin\Debug\ProyectoBingo.pdb
+C:\Users\Sumaya\Documents\SO\ClienteBingo\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csprojResolveAssemblyReference.cache
+C:\Users\Sumaya\Documents\SO\ClienteBingo\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form1.resources
+C:\Users\Sumaya\Documents\SO\ClienteBingo\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Form2.resources
+C:\Users\Sumaya\Documents\SO\ClienteBingo\ClienteBingo\ProyectoBingo\obj\x86\Debug\ConsoleApplication1.Properties.Resources.resources
+C:\Users\Sumaya\Documents\SO\ClienteBingo\ClienteBingo\ProyectoBingo\obj\x86\Debug\ProyectoBingo.csproj.GenerateResource.Cache
