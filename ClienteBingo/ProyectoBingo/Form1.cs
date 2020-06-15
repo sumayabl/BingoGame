@@ -356,7 +356,7 @@ namespace ConsoleApplication1
             //Creamos un IPEndPoint con el ip del servidor y puerto del servidor 
             //al que deseamos conectarnos
             IPAddress direc = IPAddress.Parse("147.83.117.22");  //147.83.117.22
-            IPEndPoint ipep = new IPEndPoint(direc, 50071);
+            IPEndPoint ipep = new IPEndPoint(direc, 50060);
 
 
             //Creamos el socket 
@@ -662,7 +662,7 @@ namespace ConsoleApplication1
         {
             while (true)
             {
-                Thread.Sleep(1000);
+                Thread.Sleep(3000);
 
                 string mensaje = "9/" + conectado;
                 // Enviamos al servidor el nombre tecleado
